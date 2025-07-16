@@ -97,9 +97,15 @@
     .buttons a.instagram {
       background: #e1306c;
     }
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
+      .grid {
+        gap: 10px;
+        padding: 10px;
+      }
+
       .card {
-        width: 90%;
+        width: calc(50% - 20px); /* duas colunas com margem */
+        max-width: 200px;
       }
     }
     .icons {
